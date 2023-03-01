@@ -1,0 +1,370 @@
+.companies {
+    background: $white;
+}
+
+.companies__main {
+    display: flex;
+    align-items: center;
+    padding-bottom: 80px;
+    padding-left: 120px;
+
+    @media(max-width: 1112px) {
+        padding-left: 100px;
+    }
+
+    @media(max-width: 1024px) {
+        padding-left: 20px;
+    }
+
+    @media(max-width: 800px) {
+        padding-left: 0px;   
+    }
+
+    @media(max-width: 414px) {
+        flex-wrap: wrap;
+
+    }
+}
+
+.companies-photo {
+    max-width: 570px;
+    width: 100%;
+    height: 590px;
+    background: url('../img/health.png');
+
+    @media(max-width: 1024px) {
+        width: 520px;
+        height: 520px;
+    }
+
+    @media(max-width: 800px) {
+        width: 400px;
+        height: 400px;
+    }
+
+    @media(max-width: 375px) {
+        width: 365px;
+        height: 365px;       
+    }
+}
+
+.companies-text {
+    max-width: 285px;
+    width: 100%;
+    height: 332px;
+    background: $blue3;
+    margin-top: 258px;
+    margin-left: 285px;
+
+    @media(max-width: 1024px) {
+        width: 225px;
+        height: 272px;
+    }
+
+    @media(max-width: 800px) {
+        width: 185px;
+        height: 232px;   
+        margin-top: 168px;
+        margin-left: 215px;
+    }
+
+    @media(max-width: 375px) {
+        width: 155px;
+        height: 212px;       
+    }
+
+    p{
+        padding: 60px 30px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+
+        color: $white;
+
+        @media(max-width: 1024px) {
+            padding: 40px 20px;
+            font-size: 14px;
+        }
+
+        @media(max-width: 800px) {
+            padding: 30px 15px;
+            font-size: 13px;
+            line-height: 20px;
+        }
+
+        @media(max-width: 375px) {
+            padding: 15px 15px;   
+            font-size: 12px;
+        }
+    }
+}
+
+.companies-right__header {
+    display: flex;
+    align-items: center;
+}
+
+.first-block {
+    background: $white;
+    max-width: 285px;
+    width: 100%;
+    height: 332px;
+
+    @media(max-width: 1024px) {
+        width: 205px;
+        height: 272px;
+    }
+
+    @media(max-width: 800px) {
+        width: 165px;
+        height: 232px;   
+    }
+
+    @media(max-width: 414px) {
+        width: 200px;        
+    }
+
+    @media(max-width: 375px) {
+        width: 170px;       
+    }
+
+    
+
+    p{
+        padding: 80px 30px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+
+        color: $grey;
+
+        @media(max-width: 1024px) {
+            padding: 60px 30px;
+            font-size: 14px;
+        }
+
+        @media(max-width: 800px) {
+            font-size: 13px;
+            line-height: 20px;
+            padding: 40px 25px;
+        }
+    }
+}
+
+.first-block2 {
+    background: $blue3;
+    max-width: 285px;
+    width: 100%;
+    height: 332px;
+    border-radius: 0px 20px 0px 0px;
+
+    @media(max-width: 1024px) {
+        width: 205px;
+        height: 272px;
+    }
+
+    @media(max-width: 800px) {
+        width: 165px;
+        height: 232px;   
+    }
+
+    @media(max-width: 414px) {
+        width: 200px;       
+    }
+
+    @media(max-width: 375px) {
+        width: 190px;       
+    }
+
+    p{
+        padding: 80px 30px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+
+        color: $white;
+
+        @media(max-width: 1024px) {
+            padding: 60px 30px;
+            font-size: 14px;
+        }
+
+        @media(max-width: 800px) {
+            font-size: 13px;
+            line-height: 20px;
+            padding: 40px 25px;
+        }
+    }
+}
+
+.companies-right__footer {
+    max-width: 570px;
+    width: 100%;
+    height: 284px;
+    background: $accent;
+    border-radius: 0px 0px 20px 0px;
+    margin-bottom: 25px;
+
+    @media(max-width: 1024px) {
+        width: 470px;
+        height: 224px;
+        margin-bottom: 20px;
+    }
+
+    @media(max-width: 800px) {
+        width: 380px;
+        height: 204px;
+    }
+
+    @media(max-width: 414px) {
+        width: 400px;       
+    }
+
+    @media(max-width: 375px) {
+        width: 350px;       
+    }
+
+    h3{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 50px;
+
+        color: $dark;
+
+        @media(max-width: 1024px) {
+            font-size: 19px;
+            line-height: 46px;
+        }
+
+        @media(max-width: 800px) {
+            font-size: 18px;
+            line-height: 34px;
+        }
+    }
+
+    p{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+
+        color: $black;
+
+        @media(max-width: 800px) {
+            font-size: 14px;
+            line-height: 20px;
+        }
+    }
+}
+
+.companies-btn__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 26px;
+
+    @media(max-width: 800px) {
+        padding-top: 22px;
+    }
+}
+
+.companies-btn {
+    padding: 8px 24px;
+    border: 1px solid $blue3;
+    border-radius: 8px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    color: $blue3;
+
+    @media(max-width: 1024px) {
+        padding: 6px 22px;       
+    }
+
+    @media(max-width: 800px) {
+        padding: 4px 16px;   
+        font-size: 13px;
+        line-height: 28px;
+    }
+}
+
+.companies-line {
+    height: 46px;
+    border: 1px solid $white;
+}
+
+.companies-text__footer {
+    padding: 45px 38px;
+
+    @media(max-width: 1024px) {
+        padding: 25px 32px;       
+    }
+
+    @media(max-width: 800px) {
+        padding: 23px 26px;   
+    }
+}
+
+.companies-phone {
+    max-width: 46px;
+    width: 100%;
+    height: 46px;
+    padding-right: 6px;
+
+    @media(max-width: 1112px) {
+        width: 42px;
+        height: 42px;
+        padding-right: 0px;
+    }
+
+    @media(max-width: 1024px) {
+        width: 38px;
+        height: 38px;       
+    }
+
+    @media(max-width: 800px) {
+        width: 36px;
+        height: 36px;   
+    }
+}
+
+.companies-text2__footer {
+   display: flex;
+   align-items: center;
+
+    h3{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 24px;
+
+        color: $black;
+
+        @media(max-width: 1112px) {
+            font-size: 20px;
+            line-height: 24px;
+            padding-left: 15px;
+        }
+
+        @media(max-width: 1024px) {
+            font-size: 19px;
+            line-height: 22px;
+        }
+
+        @media(max-width: 800px) {
+            font-size: 18px;
+            line-height: 20px;
+        }
+    }
+
+    p{
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+
+        color: $blue3;
+
+        @media(max-width: 1112px) {
+            padding-left: 14px;
+        }
+    }
+}

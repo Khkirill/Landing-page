@@ -1,0 +1,32 @@
+body {
+  overflow-x: hidden;
+  position: relative;
+  color: $black;
+  @include font('Raleway', 500);
+
+  &.active {
+    overflow: hidden;
+  }
+  background: $back;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 36px;
+}
+
+a,
+button {
+  color: $white;
+}
+
+.container {
+  max-width: 1590px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
